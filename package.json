@@ -1,18 +1,15 @@
 {
-  "name": "np1",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "vite-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "compile:sass": "sass --watch scss:assets/css"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@popperjs/core": "^2.11.5",
-    "bootstrap": "^5.2.0",
-    "rfs": "^9.0.6",
-    "sass": "^1.54.0"
+  "devDependencies": {
+    "sass-embedded": "^1.83.4",
+    "vite": "^6.0.5"
   }
 }
